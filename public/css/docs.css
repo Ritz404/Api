@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  backdrop-filter: blur(3px); /* Blur effect */
+  border-radius: 15px; /* Rounded corners for list items */
+  color: azure
+}
+
+caption {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+th, td {
+  padding: 10px; /* Padding around each item */
+  border: 1px solid rgba(0, 243, 252, 0.3); /* Border around each item */
+  color:azure
+}
+
+th {
+}
+#background-video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: -1; /* Posisikan video di belakang konten lainnya */
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  color: #007BFF;
+}
